@@ -1,14 +1,14 @@
 @import '@/src/styles/mixins';
 
-@font-face {
-    font-family: lucida-grande-regular;
-    src: url('../fonts/lucida-grande.ttf');
-}
+// @font-face {
+//     font-family: lucida-grande-regular;
+//     src: url('../fonts/lucida-grande.ttf');
+// }
 
-@font-face {
-    font-family: lucida-grande-bold;
-    src: url('../fonts/lucida-grande-bold.ttf');
-}
+// @font-face {
+//     font-family: lucida-grande-bold;
+//     src: url('../fonts/lucida-grande-bold.ttf');
+// }
 
 * {
     box-sizing: border-box;
@@ -29,8 +29,7 @@ html {
 }
 
 body {
-    color: $color-blue-charcoal;
-    font-size: $font-default !important;
+    font-size: 1.3rem !important;
     line-height: 2.2rem;
 }
 
@@ -49,7 +48,7 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: $color-white;
+    background-color: white;
     border-radius: 1rem;
 }
 
@@ -75,4 +74,24 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata:wght@400&display=swap");
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --label: Prata;
+
+  /* font sizes */
+  --font-size-3xs: 0.63rem;
+  --label-size: 0.69rem;
+  --font-size-sm: 0.88rem;
+  --font-size-xs: 0.75rem;
+
+  /* Colors */
+  --color-gray-100: #797979;
+  --color-gray-200: #222;
+  --color-steelblue: #1c8eb5;
 }

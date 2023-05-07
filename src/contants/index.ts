@@ -1,3 +1,3 @@
 export const EGNORE_HEADER_PATH = [
-  "/about"
+  "/my-cv"
 ];
